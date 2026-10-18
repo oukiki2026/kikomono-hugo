@@ -53,7 +53,7 @@ def check_robots(source):
 def ionos(raw):
     # Parse the visible US plan cards, not crossed-out prices or ambiguous AggregateOffer.
     text=text_content(raw)
-    pattern=r'(VPS (?:S|M|L|XL|XXL)\+)\nSave \d+%\n\$[\d.]+\n\$\n(\d+(?:\.\d+)?)\n/month\nfor (\d+) months\nwith a (\d+)-year term\n(\d+) vCores?\nCPU\n(\d+) GB\nRAM\n(\d+) GB\nNVMe'
+    pattern=r'(VPS (?:S|M|L|XL|XXL)\+)\nSave (?:\d+%|\$[\d.]+)\n\$[\d.]+\n\$\n(\d+(?:\.\d+)?)\n/month\nfor (\d+) months\nwith a (\d+)-year term\n(\d+) vCores?\nCPU\n(\d+) GB\nRAM\n(\d+) GB\nNVMe'
     records=[]
     for m in re.finditer(pattern,text):
         model,price,promo,term,cpu,ram,storage=m.groups()
