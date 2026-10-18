@@ -15,17 +15,17 @@ English AI workflow guides with a deterministic official-source offer-monitoring
 
 ## Run locally
 
-Python 3.12+; standard library only; no paid inference or data API keys.
+Python 3.12+ (stdlib only) and Hugo 0.167.0.
 
 ```sh
-python make_assets.py
 python scraper.py
-python build.py
+python tools/prebuild.py
+hugo -d site
 python validate.py
 python -m unittest discover -s tests -v
 ```
 
-Cloudflare Pages build command: `python build.py`; output: `site/`. Connect the public repository through the Cloudflare GitHub App. No Cloudflare token needs to be stored in GitHub Actions. GitHub supplies the workflow's short-lived `GITHUB_TOKEN` for committing verification records.
+Cloudflare Pages build command: `python tools/prebuild.py && hugo -d site`; output: `site/`; set `HUGO_VERSION=0.167.0`. Connect the public repository through the Cloudflare GitHub App. No Cloudflare token needs to be stored in GitHub Actions. GitHub supplies the workflow's short-lived `GITHUB_TOKEN` for committing verification records.
 
 ## Configuration that changes the site
 

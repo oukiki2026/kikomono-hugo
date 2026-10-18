@@ -1,0 +1,9 @@
+---
+title: "Hostinger AI Builder buying guide | KIKOMONO"
+description: "An AI-powered website and application builder to consider when you want to build a site with prompts rather than maintain your own server stack."
+date: "2026-10-07"
+lastmod: "2026-10-07"
+weight: 25
+guide_category: "hosting"
+---
+<section class="page-hero"><p class="eyebrow">AI website building</p><h1>Hostinger AI Builder: what to check before buying</h1><p class="lede">An AI-powered website and application builder to consider when you want to build a site with prompts rather than maintain your own server stack.</p></section><article class="prose"><h2>What the plan includes</h2><p>Hostinger describes Manual and Agentic building modes. Its hosting documentation says the builder is included with eligible hosting plans and is not compatible with VPS hosting.</p><h2>Try this before paying</h2><p>List what the site needs to do. A few information pages need less setup than an app that stores user data. Before paying, check which plan includes the builder and whether you can take your site elsewhere.</p><h2>Check the costs and limits</h2><p>Do not assume an existing VPS purchase includes the builder. Confirm the total checkout term, renewal charge, domain conditions and any usage limits.</p><h2>Official sources</h2><ul><li><a href="https://www.hostinger.com/ai-website-builder" rel="noopener">Official product information and terms</a></li><li><a href="https://www.hostinger.com/support/hostinger-ai-builder-hosting-requirements/" rel="noopener">Official hosting requirements</a></li></ul><p>Source review date: 2026-10-02. Based on product documentation, not a performance test. Source links are not affiliate links.</p><p><a href="/ai-tools/">← All AI tools</a> · <a href="/ai-tools/ai-app-budget/">Plan your project budget</a></p></article>

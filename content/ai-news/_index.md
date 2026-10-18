@@ -1,0 +1,8 @@
+---
+title: "AI updates for developers | KIKOMONO"
+description: "Dated official model updates interpreted for website builders."
+date: "2026-10-07"
+lastmod: "2026-10-07"
+weight: 34
+---
+<section class="page-hero"><p class="eyebrow">AI UPDATE DESK</p><h1>What changed.<br><span>What it means for your project.</span></h1><p class="lede">Model releases and migration notices, with official evidence and practical checks before switching.</p></section><section class="section"><article class="card"><p class="eyebrow">SOURCE REVIEW: 2026-10-02</p><h2><a href="/ai-news/gemini-flash-migration-check/">Gemini Flash: model access and migration checks</a></h2><p>Read Google's dated release and access notices before selecting a model for a new application.</p><a class="arrow" href="/ai-news/gemini-flash-migration-check/">Read the update →</a></article></section><article class="prose"><h2>Use an update to answer a decision</h2><p><a href="/guides/evaluate-new-ai-model/">Should your project switch models?</a> · <a href="/guides/ai-subscription-vs-api/">Which account pays for the request?</a> · <a href="/ai-tools/">Browse tool buying guides</a></p><h2>Coverage and sources</h2><p>This is a manually reviewed selection, not a complete or automatically refreshed news feed. We distinguish announcement dates, our review date and our editorial conclusions. We do not copy press releases or present vendor benchmarks as our own tests.</p><ul><li><a href="https://ai.google.dev/gemini-api/docs/changelog" rel="noopener">Google Gemini API release notes</a></li><li><a href="https://www.anthropic.com/news" rel="noopener">Anthropic official newsroom</a></li></ul></article>

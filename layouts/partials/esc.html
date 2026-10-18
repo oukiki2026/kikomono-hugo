@@ -1,0 +1,1 @@
+{{ $s := . }}{{ $s = replace $s "&" "&amp;" }}{{ $s = replace $s "<" "&lt;" }}{{ $s = replace $s ">" "&gt;" }}{{ $s = replace $s "\"" "&quot;" }}{{ $s = replace $s "'" "&#x27;" }}{{ $s | safeHTML }}

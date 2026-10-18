@@ -1,0 +1,46 @@
+name: Verify official offers
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['*.py', 'tools/**', 'layouts/**', 'content/**', 'static/assets/**', 'site-config/**', 'data/offers.json', 'tests/**', '.github/workflows/update.yml']
+permissions:
+  contents: write
+concurrency:
+  group: official-offer-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Hugo 0.167.0
+        run: |
+          curl -sL -o /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_linux-amd64.tar.gz
+          tar -xzf /tmp/hugo.tar.gz -C /tmp hugo
+          sudo mv /tmp/hugo /usr/local/bin/hugo
+          hugo version
+      - name: Test conservative extraction and config changes
+        run: python -m unittest discover -s tests -v
+      - name: Fetch public official sources
+        run: python scraper.py
+      - name: Prebuild generated content and config
+        run: python tools/prebuild.py
+      - name: Build and validate static output
+        run: |
+          hugo -d site
+          python validate.py
+      - name: Commit actual source-check records
+        run: |
+          git config user.name 'vps-deals source monitor'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data README.md .github/workflows/update.yml
+          git diff --cached --quiet && exit 0
+          git commit -m 'Update official source verification records'
+          git push
