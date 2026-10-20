@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-20T07:06:16+00:00",
+  "fetched_at": "2026-10-20T13:05:40+00:00",
   "locale": "en-US",
   "offers": [
     {
@@ -18,8 +18,8 @@
       "title": "IONOS VPS S+",
       "offer_url": "https://www.ionos.com/servers/vps",
       "source_url": "https://www.ionos.com/servers/vps",
-      "fetched_at": "2026-10-20T07:06:16+00:00",
-      "source_sha256": "fe98d3b478717d17575525b53f2db45c1db96419b445e063cfa5a9f32ca49b19"
+      "fetched_at": "2026-10-20T13:05:40+00:00",
+      "source_sha256": "908c74ec01116262177436168e72a443cf95197ea431de644e0a2e875e548d8d"
     },
     {
       "model": "VPS M+",
@@ -36,8 +36,8 @@
       "title": "IONOS VPS M+",
       "offer_url": "https://www.ionos.com/servers/vps",
       "source_url": "https://www.ionos.com/servers/vps",
-      "fetched_at": "2026-10-20T07:06:16+00:00",
-      "source_sha256": "fe98d3b478717d17575525b53f2db45c1db96419b445e063cfa5a9f32ca49b19"
+      "fetched_at": "2026-10-20T13:05:40+00:00",
+      "source_sha256": "908c74ec01116262177436168e72a443cf95197ea431de644e0a2e875e548d8d"
     },
     {
       "model": "VPS L+",
@@ -54,8 +54,8 @@
       "title": "IONOS VPS L+",
       "offer_url": "https://www.ionos.com/servers/vps",
       "source_url": "https://www.ionos.com/servers/vps",
-      "fetched_at": "2026-10-20T07:06:16+00:00",
-      "source_sha256": "fe98d3b478717d17575525b53f2db45c1db96419b445e063cfa5a9f32ca49b19"
+      "fetched_at": "2026-10-20T13:05:40+00:00",
+      "source_sha256": "908c74ec01116262177436168e72a443cf95197ea431de644e0a2e875e548d8d"
     },
     {
       "model": "VPS XL+",
@@ -72,8 +72,8 @@
       "title": "IONOS VPS XL+",
       "offer_url": "https://www.ionos.com/servers/vps",
       "source_url": "https://www.ionos.com/servers/vps",
-      "fetched_at": "2026-10-20T07:06:16+00:00",
-      "source_sha256": "fe98d3b478717d17575525b53f2db45c1db96419b445e063cfa5a9f32ca49b19"
+      "fetched_at": "2026-10-20T13:05:40+00:00",
+      "source_sha256": "908c74ec01116262177436168e72a443cf95197ea431de644e0a2e875e548d8d"
     },
     {
       "model": "VPS XXL+",
@@ -90,8 +90,8 @@
       "title": "IONOS VPS XXL+",
       "offer_url": "https://www.ionos.com/servers/vps",
       "source_url": "https://www.ionos.com/servers/vps",
-      "fetched_at": "2026-10-20T07:06:16+00:00",
-      "source_sha256": "fe98d3b478717d17575525b53f2db45c1db96419b445e063cfa5a9f32ca49b19"
+      "fetched_at": "2026-10-20T13:05:40+00:00",
+      "source_sha256": "908c74ec01116262177436168e72a443cf95197ea431de644e0a2e875e548d8d"
     }
   ],
   "providers": [
@@ -99,7 +99,7 @@
       "provider_id": "ionos",
       "name": "IONOS",
       "source_url": "https://www.ionos.com/servers/vps",
-      "checked_at": "2026-10-20T07:06:16+00:00",
+      "checked_at": "2026-10-20T13:05:40+00:00",
       "robots": {
         "url": "https://www.ionos.com/robots.txt",
         "sha256": "d8f325ea817a0da0f0f53f49af2ca01641b3a4e0012491bdda0bdbaf8fed4a19",
@@ -107,13 +107,13 @@
       },
       "status": "verified",
       "offer_count": 5,
-      "source_sha256": "fe98d3b478717d17575525b53f2db45c1db96419b445e063cfa5a9f32ca49b19"
+      "source_sha256": "908c74ec01116262177436168e72a443cf95197ea431de644e0a2e875e548d8d"
     },
     {
       "provider_id": "digitalocean",
       "name": "DigitalOcean",
       "source_url": "https://www.digitalocean.com/pricing/droplets",
-      "checked_at": "2026-10-20T07:06:16+00:00",
+      "checked_at": "2026-10-20T13:05:40+00:00",
       "robots": {
         "url": "https://www.digitalocean.com/robots.txt",
         "sha256": "fa88d03d74f7d9a29da6780431c0eda495aad6e9d16eb080d7b07d966aad28a8",
@@ -121,13 +121,13 @@
       },
       "status": "no-verifiable-price",
       "offer_count": 0,
-      "source_sha256": "8d052d32a1631deddd33f45efd87d7f48863c850b5f3b8de3b22edd37840b8b1"
+      "source_sha256": "8e370977ad78a93cec2b5b29461d8f4f46b2b528bce9aab0223d939420ca6b2e"
     },
     {
       "provider_id": "hetzner",
       "name": "Hetzner",
       "source_url": "https://www.hetzner.com/cloud/",
-      "checked_at": "2026-10-20T07:06:16+00:00",
+      "checked_at": "2026-10-20T13:05:40+00:00",
       "robots": {
         "url": "https://www.hetzner.com/robots.txt",
         "sha256": "7c0e0de0a0469552e7ae48283d0c6e9c072deb795619b25ce7b377d8be90c986",
@@ -135,7 +135,7 @@
       },
       "status": "no-verifiable-price",
       "offer_count": 0,
-      "source_sha256": "dd9a724e5333bcd80e279476f8a6a85af62b4f1b9323cf120e1bbb0b85d68562"
+      "source_sha256": "c25586e5ee2f0741674a8a0031eeecd2a00edfedfce0bd40c1e558805e29f5d8"
     }
   ]
 }
