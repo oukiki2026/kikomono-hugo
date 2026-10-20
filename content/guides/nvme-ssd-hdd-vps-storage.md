@@ -5,6 +5,7 @@ date: "2026-10-20"
 lastmod: "2026-10-20"
 weight: 34
 guide_category: "hosting"
+author: "Rita"
 ---
 <section class="page-hero"><p class="eyebrow">HOSTING GUIDE</p><h1>NVMe, SSD or HDD: what VPS storage changes for a small website</h1><p class="lede">Storage type shows up in database work, admin pages and restarts more than in static page delivery. Compare the three by workload, then separate disk speed from disk size before choosing a plan.</p></section><article class="prose"><h2>Three kinds of storage, one job</h2>
 <p>Every VPS plan stores your files, database and system on one of three technologies. An HDD keeps data on spinning magnetic platters and reads it with a moving head, so each request waits for physical movement. A SATA SSD stores data on flash chips with no moving parts, but talks to the computer through an interface designed in the hard-drive era. An NVMe drive also uses flash, but connects through PCI Express with a protocol designed for flash, so it can queue and complete far more small reads and writes at once.</p>

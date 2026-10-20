@@ -7,6 +7,7 @@
 {{- if eq .Type "deal" -}}{{ $main = partial "p-deal.html" . }}{{- end -}}
 {{- if and (eq .Kind "section") (eq .Section "guides") -}}{{ $main = partial "p-guides.html" . }}{{- end -}}
 {{- if and (hasPrefix .RelPermalink "/ai-tools/free-ai-tools-") (in $main "</h1>") (not (in $main "<p class=\"byline\">")) -}}{{ $main = replace $main "</h1>" "<p class=\"byline\">By Lika</p>" 1 }}{{- end -}}
+{{- with .Params.author -}}{{ if and (in $main "</h1>") (not (in $main "<p class=\"byline\">")) -}}{{ $main = replace $main "</h1>" (print "<p class=\"byline\">By " . "</p>") 1 }}{{- end }}{{- end -}}
 {{- $tutorial := or (or (in $main "<blockquote") (in $main "<pre")) (in $main "data-practice-checklist") -}}
 {{- $lead := .Params.lead | default 0 -}}
 {{- if gt $lead 0 -}}{{ range seq 1 $lead }}{{ $main = print "\n" $main }}{{ end }}{{- end -}}
