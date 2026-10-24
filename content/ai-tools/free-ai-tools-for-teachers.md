@@ -2,7 +2,7 @@
 title: "Free AI tools for teachers: start with three, check the limits | KIKOMONO"
 description: "Three free options for teachers: MagicSchool AI for planning, Canva for Education for classroom visuals, and NotebookLM for your own materials — with the limits to check before the term starts."
 date: "2026-10-23"
-lastmod: "2026-10-23"
+lastmod: "2026-10-24"
 weight: 38
 guide_category: "writing"
 author: "Rita"
@@ -32,4 +32,4 @@ author: "Rita"
 <p><strong>Can students use the same tools?</strong> Teacher access and student access are different offers. Check the provider's education page for student terms separately; do not assume a teacher plan covers a class.</p>
 <p><strong>Is one general assistant enough?</strong> For short drafts and explanations, yes. Purpose-built teacher tools earn their place on structured tasks — rubrics, differentiated readings, feedback comments — where a general prompt needs rewriting every time.</p>
 <p><strong>Should I check AI output before sharing it?</strong> Always. AI drafts can contain errors, outdated facts and invented references. Review every worksheet, rubric and handout against your lesson before it reaches students.</p>
-<h2>Sources and review scope</h2><p>Tool descriptions above reflect official product and access information checked on 2026-10-23, including the providers' own pages linked in each entry. This is a buying and access guide, not a performance test. Free plans change; confirm on the official pricing page before the term starts.</p><p><a href="/ai-tools/">← All AI tools</a> · <a href="/methodology/">How we verify offers</a></p></article>
+<h2>Sources and review scope</h2><p>Related guides in the same limits-first series: <a href="/ai-tools/free-ai-tools-for-writing/">free AI tools for writing</a>, <a href="/ai-tools/free-ai-tools-for-images/">free AI tools for images</a> and <a href="/ai-tools/free-ai-tools-for-students/">free AI tools for students</a> — each one checks the same kind of free-plan limits for a different classroom job.</p><p>Tool descriptions above reflect official product and access information checked on 2026-10-23, including the providers' own pages linked in each entry. This is a buying and access guide, not a performance test. Free plans change; confirm on the official pricing page before the term starts.</p><p><a href="/ai-tools/">← All AI tools</a> · <a href="/methodology/">How we verify offers</a></p></article>

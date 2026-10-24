@@ -2,7 +2,7 @@
 title: "NVMe, SSD or HDD: what VPS storage changes for a small website"
 description: "Storage type shows up in database work, admin pages and restarts more than in static page delivery. Compare the three by workload, then separate disk speed from disk size before choosing a plan."
 date: "2026-10-20"
-lastmod: "2026-10-20"
+lastmod: "2026-10-24"
 weight: 34
 guide_category: "hosting"
 author: "Rita"
@@ -26,6 +26,7 @@ author: "Rita"
 <h2>Read the plan label carefully</h2>
 <p>Storage on a VPS is usually shared hardware, whatever the label says. An "NVMe" plan means the host machine uses NVMe drives; it does not promise you the full speed of a dedicated drive, because neighbours on the same machine read and write too. Peak figures in marketing copy are measured under ideal conditions that a shared plan will not reproduce.</p>
 <p>Check what the provider actually documents: whether storage is local to the host or attached over a network, whether extra volumes can be added later, and whether the plan can move to a larger disk without a rebuild. Those operational answers matter more over a year than a one-line speed claim.</p>
+<p>If a plan advertises NVMe, check the label before you pay: our <a href="/guides/verify-vps-storage-nvme/">NVMe verification guide</a> walks through the checks a beginner can run on a new server.</p>
 <h2>A practical choice</h2>
 <p>For most small websites, any SSD is enough and NVMe is a welcome default rather than a requirement. Choose NVMe when the price difference is small, when the site is database-heavy, or when slow admin pages are already a complaint. Accept HDD only for archival or backup roles, or when price is the whole decision and the workload is patient. Do not pay a storage premium while the plan is short of memory: a database that cannot hold its working set in RAM will be slow on any disk.</p>
 <p>Finish by comparing the whole plan, not the storage line. Size the server with our <a href="/guides/how-to-choose-first-vps/">first VPS guide</a>, check current plans in the <a href="/compare/">verified offer comparison</a> and read the <a href="/guides/how-to-read-vps-promo-terms/">promotion checklist</a> before paying.</p>
